@@ -13,23 +13,23 @@
     display:none;
     }
     
-     @media screen and (win-width: 820px) {
-           /*   ...propirdade css...   */
+@media screen and (min-width: 820px) {
+    .container__titulo, .container__titulo--negrito {
+        font-size: 30;
     }
-        @media screen and (win-width: 820px) {
-            .container__titulo, .container__titulo--negrico {
-                font-size: 30px;
-            }
+    
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
 
-            .container__titulo {
-                font-weight: 400;
-                display: block;
-            }
 
- @media screen and (min-width: 1024px) {
-     .container__frase{  
-         padding-left: 5em;
-         font-size: 20px;
-         display: block;
-        }
- }
+}
+    
+@media screen and (min-width: 1024px) {
+    .container__frase{
+        padding-left: 5em;
+        font-size: 20px;
+        display: block;
+    }
+}
